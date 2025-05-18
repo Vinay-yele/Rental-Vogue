@@ -6,22 +6,22 @@ export default function Categories() {
     {
       title: "Designer Gowns",
       description: "Exquisite pieces from renowned designers",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/1.jpg?height=600&width=400",
     },
     {
       title: "Elegant Dresses",
       description: "Timeless elegance for every celebration",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/2.jpg?height=600&width=400",
     },
     {
       title: "Maternity Wear",
       description: "Beautiful baby bump gowns",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/3.jpg?height=600&width=400",
     },
     {
       title: "Pre-wedding Attire",
       description: "Perfect for engagement shoots",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/4.jpg?height=600&width=400",
     },
   ]
 
