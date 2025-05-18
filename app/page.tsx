@@ -18,7 +18,11 @@ export default function Home() {
       <HowItWorks />
       <Testimonials />
       <FAQ />
+<<<<<<< HEAD
       <CTA />
+=======
+      {/* <CTA /> */}
+>>>>>>> master
       <SocialMedia />
     </main>
   )
