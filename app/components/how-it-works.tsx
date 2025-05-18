@@ -33,7 +33,7 @@ export default function HowItWorks() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-pink-700 font-medium tracking-wider">HOW IT WORKS</span>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mt-4 mb-6">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-pink-900 mt-4 mb-6">
             Simple, Elegant,
             <br />
             Hassle-free

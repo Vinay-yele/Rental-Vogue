@@ -80,7 +80,7 @@ export default function HeroSection() {
 
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div>
-                <div className="text-3xl font-bold text-pink-700 mb-2">200+</div>
+                <div className="text-3xl font-bold text-pink-700 mb-2">20+</div>
                 <p className="text-sm text-gray-600 leading-snug">Designer Dresses</p>
               </div>
               <div>

@@ -5,14 +5,14 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="py-24 bg-gradient-to-b from-secondary/10 to-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-primary font-medium tracking-wider">TESTIMONIALS</span>
+      <div className="max-w-3xl mx-auto text-center mb-16">
+        <span className="text-pink-700 font-extrabold text-4xl tracking-wider">Happy Customers</span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mt-4 mb-6">
             Hear From Our
             <br />
             Satisfied Customers
           </h2>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-pink-600 leading-relaxed">
             Don't just take our word for it. See what our customers have to say about their experience with The Rental
             Vogue.
           </p>
@@ -21,7 +21,7 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/review-1.jpeg?height=600&width=800"
+              src="/customer.jpg?height=600&width=800"
               alt="Customer wearing a rented gown"
               fill
               className="object-cover"
@@ -34,11 +34,11 @@ export default function Testimonials() {
               ))}
             </div>
             <blockquote className="text-xl text-gray-900 font-medium italic">
-              "I had rented outfit for my son’s first birthday from Arati. She has quite a few options. Dress options range from simple to grand. My experience was very smooth. She was even able to get alterations done as per my measurements before lending me the dress."
+             "I recently rented gowns for my pre wedding shoot it was so comfortable and measurements were perfect, gowns were in good condition and quality of materials are great. Thank you so much Arthi for your truly remarkable work"
+
             </blockquote>
             <div>
-              <p className="font-bold text-gray-900">Manjusha Arora</p>
-              {/* <p className="text-gray-600">Event Planner / Rented for a Wedding</p> */}
+              <p className="font-bold text-gray-900">Srushti</p>
             </div>
           </div>
         </div>
