@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -11,7 +12,17 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm backdrop-blur-md transition-all duration-500">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="font-serif text-2xl font-bold text-pink-700">The Rental Vogue</div>
+        <div className="font-serif text-2xl font-bold text-pink-700 inline-flex items-center gap-2">
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={70}
+            height={70}
+            priority
+          />The Rental Vogue
+
+        </div>
+          {/* <div className="font-serif text-2xl font-bold text-pink-700">The Rental Vogue</div> */}
 
           <nav
             className={`
