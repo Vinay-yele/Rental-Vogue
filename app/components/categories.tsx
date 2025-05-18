@@ -4,25 +4,68 @@ import { Button } from "@/components/ui/button"
 export default function Categories() {
   const categories = [
     {
-      title: "Designer Gowns",
+      title: "Green Gown",
       description: "Exquisite pieces from renowned designers",
       image: "/1.jpg?height=600&width=400",
     },
     {
-      title: "Elegant Dresses",
+      title: "Purple Gown",
       description: "Timeless elegance for every celebration",
       image: "/2.jpg?height=600&width=400",
     },
     {
-      title: "Maternity Wear",
+      title: "Red Gown",
       description: "Beautiful baby bump gowns",
-      image: "/3.jpg?height=600&width=400",
+      image: "/7.jpg?height=600&width=400",
     },
+    {
+      title: "Pink Gown",
+      description: "Exquisite pieces from renowned designers",
+      image: "/6.jpg?height=600&width=400",
+    },
+    
     {
       title: "Pre-wedding Attire",
       description: "Perfect for engagement shoots",
       image: "/4.jpg?height=600&width=400",
     },
+    
+    {
+      title: "Wedding Lehenga",
+      description: "Timeless elegance for every celebration",
+      image: "/3.jpg?height=600&width=400",
+    },
+    {
+      title: "Maternity Wear",
+      description: "Beautiful baby bump gowns",
+      image: "/maternal-1.jpg?height=600&width=400",
+    },
+    
+    {
+      title: "Maternity ball gown",
+      description: "Perfect for engagement shoots",
+      image: "/8.jpg?height=600&width=400",
+    },
+    {
+      title: "Maroon Gown",
+      description: "Exquisite pieces from renowned designers",
+      image: "/9.jpg?height=600&width=400",
+    },
+    {
+      title: "Green Lehenga",
+      description: "Timeless elegance for every celebration",
+      image: "/10.jpg?height=600&width=400",
+    },
+    {
+      title: "Pink Dress",
+      description: "Beautiful baby bump gowns",
+      image: "11.png?height=600&width=400",
+    },
+    {
+      title: "Kid's Pink Dress",
+      description: "Perfect for engagement shoots",
+      image: "/12.jpg?height=600&width=400",
+    }
   ]
 
   return (
