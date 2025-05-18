@@ -10,27 +10,30 @@ export default function SocialMedia() {
           Follow us for style inspiration, new arrivals, and exclusive offers
         </p>
         <div className="flex justify-center gap-4 mb-8">
+          <a href="https://www.instagram.com/therentalvogue/">
           <Button
             variant="outline"
             className="flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white"
           >
             <Instagram />
             Instagram
-          </Button>
-          <Button
-            variant="outline"
-            className="flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white"
-          >
-            <Facebook />
-            Facebook
-          </Button>
-          <Button
+          </Button></a>
+          <a href="https://www.facebook.com/profile.php?id=100093000000000">
+            <Button
+              variant="outline"
+              className="flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white"  
+            >
+              <Facebook />
+              Facebook
+            </Button>
+          </a>
+          {/* <Button
             variant="outline"
             className="flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white"
           >
             <Twitter />
             Twitter
-          </Button>
+          </Button> */}
         </div>
         <p className="text-gray-600 mb-4">Tag us with #TheRentalVogue to be featured!</p>
         <div className="max-w-2xl mx-auto">

@@ -21,7 +21,7 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
             <Image
-              src="/placeholder.svg?height=600&width=800"
+              src="/review-1.jpeg?height=600&width=800"
               alt="Customer wearing a rented gown"
               fill
               className="object-cover"
@@ -34,13 +34,11 @@ export default function Testimonials() {
               ))}
             </div>
             <blockquote className="text-xl text-gray-900 font-medium italic">
-              "I rented a gorgeous Vera Wang for my best friend's wedding. The dress fit perfectly, and I received so
-              many compliments! The entire process was seamless, from selection to return. I'll definitely be using The
-              Rental Vogue again!"
+              "I had rented outfit for my son’s first birthday from Arati. She has quite a few options. Dress options range from simple to grand. My experience was very smooth. She was even able to get alterations done as per my measurements before lending me the dress."
             </blockquote>
             <div>
-              <p className="font-bold text-gray-900">Emily Johnson</p>
-              <p className="text-gray-600">Event Planner / Rented for a Wedding</p>
+              <p className="font-bold text-gray-900">Manjusha Arora</p>
+              {/* <p className="text-gray-600">Event Planner / Rented for a Wedding</p> */}
             </div>
           </div>
         </div>
@@ -49,22 +47,19 @@ export default function Testimonials() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              comment: "My maternity photoshoot dress was absolutely perfect. I felt beautiful and comfortable.",
-              name: "Sarah Williams",
-              role: "Teacher",
-              event: "Maternity Photoshoot",
+              comment: " We took a gown on rent from this shop and we had a good experience with renting out. Shop owner interaction is good and helps getting the gown resized to our needs. Got a proper response whenever we called. The gown quality and colour was good and we have choosen from a set of gown collection. I suggest this shop to be a good choice of you want to rent out gown.photoshoot dress was absolutely perfect. I felt beautiful and comfortable.",
+              name: "Keertiraj Halli",
+              
             },
             {
-              comment: "The pre-wedding shoot dresses were stunning. The styling advice was incredibly helpful!",
-              name: "Jessica Chen",
-              role: "Marketing Executive",
-              event: "Pre-wedding Shoot",
+              comment: "Nice costumes with reasonable prices.i took 2 costumes very good and they are providing adjustments also at a time.they are giving gowns for 2days it is very good. I am happy. with their communication pre-wedding shoot dresses were stunning. The styling advice was incredibly helpful!",
+              name: "Jkambhampati jyothi",
+          
             },
             {
-              comment: "Rented a gown for a charity gala. Saved money and still looked like a million dollars!",
-              name: "Olivia Parker",
-              role: "Non-profit Director",
-              event: "Charity Gala",
+              comment: " have rented gown for my pre wedding shoot and it has given me a really good look to my pictures and collections are good at rental vouge.. and the person arathi who is handling this is a really very helpful and good person i have met,,, iam happy with renting dress from here and you all beautiful womens...just go for it. This will be your good choice!! You can create your own memories with beautiful dresses. Iam happy and satisfied with The Rental Vogue👍😊",
+              name: "Sandhya Sanu",
+             
             },
           ].map((review, index) => (
             <div key={index} className="bg-white rounded-2xl p-8 shadow-lg">
@@ -77,7 +72,7 @@ export default function Testimonials() {
               <div>
                 <p className="font-bold text-gray-900">{review.name}</p>
                 <p className="text-sm text-gray-600">
-                  {review.role} / {review.event}
+              
                 </p>
               </div>
             </div>

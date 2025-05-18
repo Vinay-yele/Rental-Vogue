@@ -29,7 +29,7 @@ export default function BrandStory() {
             <div className="absolute inset-0 bg-black/10" />
           </div>
           <div className="space-y-6">
-            <h3 className="text-2xl font-serif font-bold text-gray-900">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mt-4 mb-6">
               Sustainable Fashion,
               <br />
               Uncompromising Style
@@ -43,9 +43,9 @@ export default function BrandStory() {
               latest trends and timeless classics for any occasion – from galas and weddings to maternity photoshoots
               and pre-wedding celebrations.
             </p>
-            <Button variant="outline" className="mt-4">
+            {/* <Button variant="outline" className="mt-4">
               Our Story
-            </Button>
+            </Button> */}
           </div>
         </div>
 

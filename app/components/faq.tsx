@@ -33,11 +33,9 @@ export default function FAQ() {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-primary font-medium tracking-wider">FAQ</span>
+          <span className="text-pink-700 font-bold tracking-wider">FAQ</span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mt-4 mb-6">
-            Frequently Asked
-            <br />
-            Questions
+            Frequently Asked Questions
           </h2>
           <p className="text-gray-600 leading-relaxed">
             Have questions about our rental process? Find answers to our most commonly asked questions below.

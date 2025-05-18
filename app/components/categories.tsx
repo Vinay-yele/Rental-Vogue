@@ -65,9 +65,9 @@ export default function Categories() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button className="bg-primary hover:bg-primary/90 text-black">View All Collections</Button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
