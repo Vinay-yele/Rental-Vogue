@@ -64,7 +64,7 @@ export default function HeroSection() {
               <span className="block mt-2 font-medium">Rent. Reveal. Return.</span>
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            {/* <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 rounded-full">
                 Browse Collection
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -76,7 +76,7 @@ export default function HeroSection() {
               >
                 How It Works
               </Button>
-            </div>
+            </div> */}
 
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div>
