@@ -6,7 +6,7 @@ export default function Categories() {
     {
       title: "Designer Gowns",
       description: "Exquisite pieces from renowned designers",
-      image: "/placeholder.svg?height=600&width=400",
+      image: "/1.jpg?height=600&width=400",
     },
     {
       title: "Elegant Dresses",
@@ -29,7 +29,7 @@ export default function Categories() {
     <section id="categories" className="py-24 bg-gradient-to-b from-white to-secondary/10">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-primary font-medium tracking-wider">COLLECTIONS</span>
+          <span className="text-pink-700 font-medium tracking-wider">COLLECTIONS</span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mt-4 mb-6">
             Discover Our
             <br />
@@ -60,7 +60,7 @@ export default function Categories() {
                   <p className="text-white/80 text-sm mb-4">{category.description}</p>
                   <Button
                     variant="outline"
-                    className="border-white text-white hover:bg-white hover:text-primary transition-colors"
+                    className="border-white text-white hover:bg-white hover:text-pink-700 transition-colors"
                     size="sm"
                   >
                     Explore
