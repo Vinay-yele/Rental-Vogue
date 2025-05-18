@@ -1,5 +1,30 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import { memo } from "react"
+
+const CategoryCard = memo(({ category, index }: { category: any; index: number }) => (
+  <div
+    className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl"
+  >
+    <div className="aspect-[3/4] relative">
+      <Image
+        src={category.image || "/placeholder.svg"}
+        alt={category.title}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+        priority={index < 4}
+        loading={index < 4 ? "eager" : "lazy"}
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80" />
+      <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+        <h3 className="text-xl font-serif font-bold mb-2">{category.title}</h3>
+        <p className="text-white/80 text-sm mb-4">{category.description}</p>
+      </div>
+    </div>
+  </div>
+))
+CategoryCard.displayName = "CategoryCard"
 
 export default function Categories() {
   const categories = [
@@ -86,25 +111,7 @@ export default function Categories() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {categories.map((category, index) => (
-            <div
-              key={index}
-              className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl"
-            >
-              <div className="aspect-[3/4] relative">
-                <Image
-                  src={category.image || "/placeholder.svg"}
-                  alt={category.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80" />
-                <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                  <h3 className="text-xl font-serif font-bold mb-2">{category.title}</h3>
-                  <p className="text-white/80 text-sm mb-4">{category.description}</p>
-                  
-                </div>
-              </div>
-            </div>
+            <CategoryCard key={index} category={category} index={index} />
           ))}
         </div>
 
