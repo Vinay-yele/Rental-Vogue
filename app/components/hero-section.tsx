@@ -10,17 +10,17 @@ export default function HeroSection() {
 
   const slides = [
     {
-      image: "/placeholder.svg?height=800&width=600",
+      image: "/1.jpg?height=800&width=600",
       title: "Designer Gowns",
       description: "Exquisite designer pieces for your special occasions",
     },
     {
-      image: "/placeholder.svg?height=800&width=600",
+      image: "/2.jpg?height=800&width=600",
       title: "Elegant Dresses",
       description: "Timeless elegance for every celebration",
     },
     {
-      image: "/placeholder.svg?height=800&width=600",
+      image: "/3.jpg?height=800&width=600",
       title: "Maternity Wear",
       description: "Beautiful baby bump gowns for your precious moments",
     },
@@ -49,12 +49,12 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative z-10 space-y-8">
             <div className="inline-block bg-primary/10 px-4 py-2 rounded-full">
-              <span className="text-primary font-medium tracking-wider text-sm">Premium Dress Rental Service</span>
+              <span className="text-pink-700 font-medium tracking-wider text-sm">Premium Dress Rental Service</span>
             </div>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight text-gray-900">
               <span className="block">Elegance for</span>
-              <span className="block text-primary">Every Occasion,</span>
+              <span className="block text-pink-700">Every Occasion,</span>
               <span className="block">Without Commitment.</span>
             </h1>
 
@@ -72,7 +72,7 @@ export default function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-white rounded-full"
+                className="border-primary text-pink-700 hover:bg-primary hover:text-white rounded-full"
               >
                 How It Works
               </Button>
@@ -80,15 +80,15 @@ export default function HeroSection() {
 
             <div className="grid grid-cols-3 gap-8 pt-8">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">200+</div>
+                <div className="text-3xl font-bold text-pink-700 mb-2">200+</div>
                 <p className="text-sm text-gray-600 leading-snug">Designer Dresses</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">98%</div>
+                <div className="text-3xl font-bold text-pink-700 mb-2">98%</div>
                 <p className="text-sm text-gray-600 leading-snug">Happy Customers</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">24h</div>
+                <div className="text-3xl font-bold text-pink-700 mb-2">24h</div>
                 <p className="text-sm text-gray-600 leading-snug">Delivery</p>
               </div>
             </div>

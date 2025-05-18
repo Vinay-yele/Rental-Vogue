@@ -11,7 +11,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm backdrop-blur-md transition-all duration-500">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <div className="font-serif text-2xl font-bold text-primary">The Rental Vogue</div>
+          <div className="font-serif text-2xl font-bold text-pink-700">The Rental Vogue</div>
 
           <nav
             className={`
@@ -54,7 +54,7 @@ export default function Header() {
                 Testimonials
               </a>
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                <Button className="bg-primary hover:bg-primary/90 text-white">Book Now</Button>
+                <Button className="bg-primary hover:bg-primary/90 text-pink-700">Book Now</Button>
               </div>
             </div>
           </nav>
