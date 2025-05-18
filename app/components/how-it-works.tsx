@@ -32,13 +32,13 @@ export default function HowItWorks() {
     <section id="how-it-works" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-primary font-medium tracking-wider">HOW IT WORKS</span>
+          <span className="text-pink-700 font-medium tracking-wider">HOW IT WORKS</span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mt-4 mb-6">
             Simple, Elegant,
             <br />
             Hassle-free
           </h2>
-          <p className="text-gray-600 leading-relaxed">
+          <p className="text-pink-700 leading-relaxed">
             Renting with The Rental Vogue is as easy as it is delightful. Follow these simple steps to experience luxury
             fashion without commitment.
           </p>
@@ -74,7 +74,7 @@ export default function HowItWorks() {
                   "Accessory recommendations",
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-3">
-                    <CheckCircle className="h-5 w-5 text-primary flex-shrink-0" />
+                    <CheckCircle className="h-5 w-5 text-pink-700 flex-shrink-0" />
                     <span className="text-gray-700">{item}</span>
                   </li>
                 ))}

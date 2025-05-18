@@ -5,7 +5,6 @@ import Categories from "./components/categories"
 import HowItWorks from "./components/how-it-works"
 import Testimonials from "./components/testimonials"
 import FAQ from "./components/faq"
-import CTA from "./components/cta"
 import SocialMedia from "./components/social-media"
 
 export default function Home() {
@@ -18,11 +17,7 @@ export default function Home() {
       <HowItWorks />
       <Testimonials />
       <FAQ />
-<<<<<<< HEAD
-      <CTA />
-=======
       {/* <CTA /> */}
->>>>>>> master
       <SocialMedia />
     </main>
   )
