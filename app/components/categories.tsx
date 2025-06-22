@@ -28,70 +28,63 @@ CategoryCard.displayName = "CategoryCard"
 
 export default function Categories() {
   const categories = [
-    {
-      title: "Green Gown",
-      description: "Exquisite pieces from renowned designers",
-      image: "/1.jpg?height=600&width=400",
-    },
-    {
-      title: "Purple Gown",
-      description: "Timeless elegance for every celebration",
-      image: "/2.jpg?height=600&width=400",
-    },
-    {
-      title: "Red Gown",
-      description: "Beautiful baby bump gowns",
-      image: "/7.jpg?height=600&width=400",
-    },
-    {
-      title: "Pink Gown",
-      description: "Exquisite pieces from renowned designers",
-      image: "/6.jpg?height=600&width=400",
-    },
-    
-    {
-      title: "Pre-wedding Attire",
-      description: "Perfect for engagement shoots",
-      image: "/4.jpg?height=600&width=400",
-    },
-    
-    {
-      title: "Wedding Lehenga",
-      description: "Timeless elegance for every celebration",
-      image: "/3.jpg?height=600&width=400",
-    },
-    {
-      title: "Maternity Wear",
-      description: "Beautiful baby bump gowns",
-      image: "/maternal-1.jpg?height=600&width=400",
-    },
-    
-    {
-      title: "Maternity ball gown",
-      description: "Perfect for engagement shoots",
-      image: "/8.jpg?height=600&width=400",
-    },
-    {
-      title: "Maroon Gown",
-      description: "Exquisite pieces from renowned designers",
-      image: "/9.jpg?height=600&width=400",
-    },
-    {
-      title: "Green Lehenga",
-      description: "Timeless elegance for every celebration",
-      image: "/10.jpg?height=600&width=400",
-    },
-    {
-      title: "Pink Dress",
-      description: "Beautiful baby bump gowns",
-      image: "11.png?height=600&width=400",
-    },
-    {
-      title: "Kid's Pink Dress",
-      description: "Perfect for engagement shoots",
-      image: "/12.jpg?height=600&width=400",
-    }
-  ]
+  {
+    title: "Purple Gown",
+    description: "Timeless elegance with a royal touch",
+    image: "/2.jpg?height=600&width=400",
+  },
+  {
+    title: "Green Lehenga",
+    description: "Gracefully crafted for grand celebrations",
+    image: "/14.jpeg?height=600&width=400",
+  },
+  {
+    title: "Dreamy Shimmer Organza Gown",
+    description: "A radiant pick for your engagement moments",
+    image: "/13.jpeg?height=600&width=400",
+  },
+  {
+    title: "Red Gown",
+    description: "Bold beauty that commands the spotlight",
+    image: "/7.jpg?height=600&width=400",
+  },
+  {
+    title: "Pink Gown",
+    description: "Exquisite artistry from celebrated designers",
+    image: "/6.jpg?height=600&width=400",
+  },
+  {
+    title: "Pre-wedding Attire",
+    description: "Effortless charm for picture-perfect memories",
+    image: "/4.jpg?height=600&width=400",
+  },
+  {
+    title: "Wedding Lehenga",
+    description: "Tradition meets opulence for your big day",
+    image: "/3.jpg?height=600&width=400",
+  },
+  {
+    title: "Maternity Wear",
+    description: "Celebrate your glow in ethereal elegance",
+    image: "/maternal-1.jpg?height=600&width=400",
+  },
+  {
+    title: "Maternity Ball Gown",
+    description: "Radiate beauty and grace in every frame",
+    image: "/8.jpg?height=600&width=400",
+  },
+  {
+    title: "Maroon Gown",
+    description: "A deep hue woven with designer finesse",
+    image: "/9.jpg?height=600&width=400",
+  },
+  {
+    title: "Pink Dress",
+    description: "Chic simplicity with a hint of glamour",
+    image: "11.png?height=600&width=400",
+  }
+]
+
 
   return (
     <section id="categories" className="py-24 bg-gradient-to-b from-white to-secondary/10">
