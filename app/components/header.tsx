@@ -63,9 +63,15 @@ export default function Header() {
                 Testimonials
               </a>
               <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-                <Button className="bg-primary hover:bg-primary/90 text-pink-700">
-                  <a href="#contact" className="text-pink-700">Book Now</a>
-                </Button>
+             <a
+  onClick={() => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" })
+    setIsMenuOpen(false)
+  }}
+  className="bg-primary hover:bg-primary/90 text-pink-700 px-4 py-2 rounded font-medium transition-colors duration-300 text-center cursor-pointer"
+>
+  Book Now
+</a>
               </div>
             </div>
           </nav>

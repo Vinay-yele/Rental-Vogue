@@ -13,7 +13,7 @@ export default function SocialMedia() {
           <a href="https://www.instagram.com/therentalvogue/">
             <Button
               variant="outline"
-              className="flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white"
+              className="flex items-center gap-2 border-primary text-black hover:bg-primary hover:text-white"
             >
               <Instagram />
               Instagram
@@ -22,7 +22,7 @@ export default function SocialMedia() {
           <a href="https://www.facebook.com/profile.php?id=100093000000000">
             <Button
               variant="outline"
-              className="flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white"  
+              className="flex items-center gap-2 border-primary text-black hover:bg-primary hover:text-white"  
             >
               <Facebook />
               Facebook
@@ -30,19 +30,7 @@ export default function SocialMedia() {
           </a>
         </div>
         <p className="text-gray-600 mb-4">Tag us with #TheRentalVogue to be featured!</p>
-        <div className="max-w-2xl mx-auto mb-16">
-          <div className="flex flex-col sm:flex-row gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-2 border border-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
-            />
-            <Button className="bg-primary hover:bg-primary/90 text-white">Subscribe to Newsletter</Button>
-          </div>
-          <p className="text-sm text-gray-500 mt-2">
-            Subscribe to receive updates on new arrivals, special offers and our promotions.
-          </p>
-        </div>
+        
 
         {/* Contact Section with Map */}
         <div className="max-w-5xl mx-auto">
@@ -62,14 +50,14 @@ export default function SocialMedia() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-center max-w-4xl mx-auto">
             <div className="flex flex-col gap-2 items-center">
               <h3 className="font-serif text-lg font-bold text-gray-800">Contact</h3>
-              <a 
+                <a 
                 href="https://wa.me/918123770843" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="text-pink-700 hover:text-pink-800"
-              >
+                className="text-pink-700 hover:text-pink-800 underline"
+                >
                 WhatsApp: +91 8123770843
-              </a>
+                </a>  
               <a 
                 href="https://www.instagram.com/therentalvogue/" 
                 target="_blank" 
@@ -99,6 +87,16 @@ export default function SocialMedia() {
             </div>
           </div>
         </div>
+        <div className="mt-6 flex justify-center">
+  <a 
+    href="https://wa.me/918123770843" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="bg-primary text-pink-700 hover:text-white hover:bg-pink-700 px-6 py-3 rounded font-medium transition-colors duration-300"
+  >
+    Book Now on WhatsApp
+  </a>
+</div>
 
         {/* Original Footer */}
         <div className="mt-8 pt-8 border-t border-secondary/30 text-sm text-gray-500">
