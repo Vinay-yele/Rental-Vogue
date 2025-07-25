@@ -21,7 +21,7 @@ export default function HeroSection() {
     },
     {
       image: "/3.jpg?height=800&width=600",
-      title: "Maternity Wear",
+      title: "Wedding Lehenga",
       description: "Beautiful baby bump gowns for your precious moments",
     },
   ]
